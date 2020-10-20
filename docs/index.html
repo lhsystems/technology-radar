@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <script>window.location.href='https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fraw.githubusercontent.com%2Flhsystems%2Ftechnology-radar%2Fmaster%2Fthoughtworks-example.csv'</script>
+  <script>
+      var rawCsvUrl = 'https://raw.githubusercontent.com/lhsystems/technology-radar/master/Lufthansa%20Systems%20Tech%20Radar.csv';
+      window.location.href = 'https://radar.thoughtworks.com/?sheetId=' + encodeURIComponent(rawCsvUrl)
+  </script>
 </head>
 <body>
 </body>
