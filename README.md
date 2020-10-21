@@ -1,5 +1,7 @@
 # LSY Tech Radar
 
+![CSV validation](https://github.com/lhsystems/technology-radar/workflows/CSV%20validation/badge.svg)
+
 This repository contains the CSV file of our [technology radar](https://lhsystems.github.io/technology-radar/).
 
 ## Implementation details
