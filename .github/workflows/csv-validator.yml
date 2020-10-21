@@ -27,4 +27,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm install --global csval
-          csval "Lufthansa Systems Tech Radar.csv"
+          csval "Lufthansa Systems Tech Radar.csv" validation/radar-schema.json

@@ -1,0 +1,23 @@
+{
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"ring": {
+			"type": "string",
+			"enum": ["Adopt", "Trial", "Assess", "Hold"]
+		},
+		"quadrant": {
+			"type": "string",
+			"enum": ["Techniques", "Platforms", "Tools", "languages-and-frameworks"]
+		},
+		"isNew": {
+			"type": "boolean"
+		},
+		"description": {
+			"type": "string"
+		}
+	},
+	"required": ["name", "ring", "quadrant", "isNew", "description"],
+	"additionalProperties": false
+}
