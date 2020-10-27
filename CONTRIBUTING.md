@@ -23,3 +23,11 @@ Thank you for taking interest into contributing to the Lufthansa Systems Technol
 - Describe the changes inside the PR description
 - If a revier asks for changes, please mark it as resolved after it has been addressed
 - PR's with unresolved issues will not be merged
+
+## General rules for text files
+- Use UTF-8 file encoding
+- Use unix-style line-endings (single "\n" sequence at the end of the line)
+- Aside from the line terminator sequence, the ASCII horizontal space character (0x20) is the only whitespace character that appears anywhere in a source file. This implies that:
+    - All other whitespace characters in string and character literals are escaped
+    - Tab characters are not used for indentation.
+- Add newline at the end of every file
