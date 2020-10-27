@@ -16,3 +16,10 @@ Thank you for taking interest into contributing to the Lufthansa Systems Technol
 - Avoid past term in the commit messages, keep the history consistent
 - Multiline commit messages are permitted, with the restriction that the first line shall always be a meaningful, English sentence, using present term
 - Multiple smaller commits are preferred over huge commits
+
+## Pull Requests
+- If possible, associate your Pull Request with an existing issue
+- Keep your PR's small, and focus them on one change
+- Describe the changes inside the PR description
+- If a revier asks for changes, please mark it as resolved after it has been addressed
+- PR's with unresolved issues will not be merged
